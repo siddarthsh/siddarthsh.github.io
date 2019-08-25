@@ -74,6 +74,10 @@
 		transform: scale(1)
 	}
 }
+@keyframes strike {
+	from { text-decoration-color: transparent; }
+	to { text-decoration-color: #000; }
+  }
 body {
     margin:0;
     padding:0;
@@ -199,6 +203,7 @@ sup {
 img {
 	border-style: none
 }
+
 button,
 input,
 optgroup,
@@ -2663,6 +2668,10 @@ hr {
 	width:100%;
 	margin:0
 }
+.row {
+	display:flex;
+	flex-direction: row;
+}
 @media (max-width: 1023.98px) {
 	h3 {
 		font-size:36px;
@@ -2681,9 +2690,12 @@ hr {
         padding-top:0;
         padding-bottom:50px;
 	}
+	.row {
+		display:flex;
+		flex-direction: column;
+	}
 }
 
-}
 .tooltip {
     position: relative;
     display: inline-block;
