@@ -1,5 +1,5 @@
-# Main website
+# Portfolio Website
 
-## siddarth.tech
+My portfolio website, built with HTML, CSS, and Javascript.
+Showcasing some of the projects that I've been working on.
 
-Nothing yet
