@@ -93,6 +93,7 @@ body {
     url("../fonts/manrope/manrope-extrabold.woff") format("woff"), /* Legacy browsers */
     url("../fonts/manrope/manrope-extrabold.otf") format("truetype"); /* Android, iOS */
     font-style: normal;
+	font-display: fallback;
     font-weight: 800; }
 @font-face {
     font-family: "Manrope";
@@ -100,9 +101,11 @@ body {
     url("../fonts/manrope/manrope-bold.woff") format("woff"),
     url("../fonts/manrope/manrope-bold.otf") format("truetype");
     font-style: normal;
+	font-display: fallback;
     font-weight: 700; }
 @font-face {
     font-family: "Manrope";
+	font-display: fallback;
     src: url("../fonts/manrope/manrope-semibold.woff2") format("woff2"),
     url("../fonts/manrope/manrope-semibold.woff") format("woff"),
     url("../fonts/manrope/manrope-semibold.otf") format("truetype");
@@ -110,6 +113,7 @@ body {
     font-weight: 600; }
 @font-face {
     font-family: "Manrope";
+	font-display: fallback;
     src: url("../fonts/manrope/manrope-medium.woff2") format("woff2"),
     url("../fonts/manrope/manrope-medium.woff") format("woff"),
     url("../fonts/manrope/manrope-medium.otf") format("truetype");
@@ -117,6 +121,7 @@ body {
     font-weight: 500; }
 @font-face {
     font-family: "Manrope";
+	font-display: fallback;
     src: url("../fonts/manrope/manrope-regular.woff2") format("woff2"),
     url("../fonts/manrope/manrope-regular.woff") format("woff"),
     url("../fonts/manrope/manrope-regular.otf") format("truetype");
@@ -128,6 +133,7 @@ body {
     url("../fonts/manrope/manrope-light.woff") format("woff"),
     url("../fonts/manrope/manrope-light.otf") format("truetype");
     font-style: normal;
+	font-display: fallback;
     font-weight: 300; }
 @font-face {
     font-family: "Manrope";
@@ -135,18 +141,19 @@ body {
     url("../fonts/manrope/manrope-thin.woff") format("woff"),
     url("../fonts/manrope/manrope-thin.otf") format("truetype");
     font-style: normal;
+	font-display: fallback;
     font-weight: 200; }
 .pulse {
-	-webkit-animation: pulse .65s ease-in-out infinite;
-	animation: pulse .65s ease-in-out infinite
+	-webkit-animation: pulse .15s ease-in-out infinite;
+	animation: pulse .15s ease-in-out infinite
 }
 .fadeInDown {
-	-webkit-animation: fadeInDown .65s ease forwards;
-	animation: fadeInDown .65s ease forwards
+	-webkit-animation: fadeInDown .15s ease forwards;
+	animation: fadeInDown .15s ease forwards
 }
 .fadeInUp {
-	-webkit-animation: fadeInUp .65s ease forwards;
-	animation: fadeInUp .65s ease forwards
+	-webkit-animation: fadeInUp .15s ease forwards;
+	animation: fadeInUp .15s ease forwards
 }
 html {
 	line-height: 1.15;
@@ -390,7 +397,7 @@ strong {
 	opacity: 1
 }
 .primary\@text,a:hover,p a {
-	color: #0085ff
+	color: #004f99
 }
 .button.pink,
 .mention:hover .label,
