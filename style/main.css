@@ -425,6 +425,12 @@ nav .toggle:before {
 .h-ntcsf\@text:hover{color:#1f3046}
 .h-ntcsf\@bg:hover{background-color:#1f3046}
 .h-ntcsf\@border:hover{border-color:#1f3046}
+.whenbtc\@text{color:#095e34}
+.whenbtc\@bg{background-color:#095e34}
+.whenbtc\@border{border-color:#095e34}
+.h-whenbtc\@text:hover{color:#095e34}
+.h-whenbtc\@bg:hover{background-color:#095e34}
+.h-whenbtc\@border:hover{border-color:#095e34}
 .divuture\@text{color:#30f}
 .divuture\@bg{background-color:#30f}
 .divuture\@border{border-color:#30f}
