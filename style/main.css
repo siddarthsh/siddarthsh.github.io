@@ -855,11 +855,6 @@ footer.footer>.talk {
 	.project+.project {
 		margin-top: 0
 	}
-	.h2,
-	h2 {
-		font-size: 40px;
-		line-height: 52px
-	}
 }
 .splitter {
 	display:flex;
@@ -1026,9 +1021,9 @@ hr {
 	flex-direction:row
 }
 @media (max-width: 1023.98px) {
-	h3 {
-		font-size:36px;
-		line-height:44px
+	h2,h3 {
+		font-size:30px;
+		line-height:38px
 	}
 	h4 {
 		font-size: 32px;
