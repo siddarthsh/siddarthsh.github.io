@@ -274,7 +274,7 @@ footer.footer>.talk h5 span:before {
 footer.footer>.talk {
 	background-color:#000
 }
-.ntcsf\@text{color:#1f3046}.ntcsf\@bg{background-color:#c03232}.h-ntcsf\@text:hover{color:#c03232}.h-ntcsf\@bg:hover{background-color:#c03232}.whenbtc\@text{color:#095e34}.whenbtc\@bg{background-color:#095e34}.h-whenbtc\@text:hover{color:#095e34}.h-whenbtc\@bg:hover{background-color:#095e34}.divuture\@text{color:#30f}.divuture\@bg{background-color:#30f}.h-divuture\@text:hover{color:#30f}.h-divuture\@bg:hover{background-color:#30f}.cmdportfolio\@text{color:#f5ee14}.cmdportfolio\@bg{background-color:#f5ee14}.h-cmdportfolio\@text:hover{color:#f5ee14}.h-cmdportfolio\@bg:hover{background-color:#f5ee14}.lebedata\@text{color:#000}.lebedata\@bg{background-color:#000}.h-lebedata\@text:hover{color:#000}.h-lebedata\@bg:hover{background-color:#000}.pexpansion100\@text{color:#eaf4f4}.pexpansion100\@bg{background-color:#eaf4f4}.h-pexpansion100\@text:hover{color:#eaf4f4}.h-pexpansion100\@bg:hover{background-color:#eaf4f4}a,p a {
+.ntcsf\@text{color:#1f3046}.ntcsf\@bg{background-color:#c03240}.h-ntcsf\@text:hover{color:#c03240}.h-ntcsf\@bg:hover{background-color:#c04240}.whenbtc\@text{color:#095e34}.whenbtc\@bg{background-color:#095e34}.h-whenbtc\@text:hover{color:#095e34}.h-whenbtc\@bg:hover{background-color:#095e34}.divuture\@text{color:#30f}.divuture\@bg{background-color:#30f}.h-divuture\@text:hover{color:#30f}.h-divuture\@bg:hover{background-color:#30f}.cmdportfolio\@text{color:#f5ee14}.cmdportfolio\@bg{background-color:#f5ee14}.h-cmdportfolio\@text:hover{color:#f5ee14}.h-cmdportfolio\@bg:hover{background-color:#f5ee14}.lebedata\@text{color:#000}.lebedata\@bg{background-color:#000}.h-lebedata\@text:hover{color:#000}.h-lebedata\@bg:hover{background-color:#000}.pexpansion100\@text{color:#eaf4f4}.pexpansion100\@bg{background-color:#eaf4f4}.h-pexpansion100\@text:hover{color:#eaf4f4}.h-pexpansion100\@bg:hover{background-color:#eaf4f4}a,p a {
 	font-weight:500
 }
 .p0 {
@@ -755,7 +755,7 @@ footer.footer>.talk {
 	background-color:hsla(0,
 	0%,
 	100%,
-	.25)
+	.15)
 }
 .button.light:hover {
 	color:#fff;
