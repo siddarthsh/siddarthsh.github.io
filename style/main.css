@@ -275,7 +275,7 @@ footer.footer>.talk h5 span:before {
 footer.footer>.talk {
 	background-color:#000
 }
-.ntcsf\@text{color:#1f3046}.ntcsf\@bg{background-color:#1f3046}.h-ntcsf\@text:hover{color:#1f3046}.h-ntcsf\@bg:hover{background-color:#1f3046}.whenbtc\@text{color:#095e34}.whenbtc\@bg{background-color:#095e34}.h-whenbtc\@text:hover{color:#095e34}.h-whenbtc\@bg:hover{background-color:#095e34}.divuture\@text{color:#30f}.divuture\@bg{background-color:#30f}.h-divuture\@text:hover{color:#30f}.h-divuture\@bg:hover{background-color:#30f}.cmdportfolio\@text{color:#f5ee14}.cmdportfolio\@bg{background-color:#f5ee14}.h-cmdportfolio\@text:hover{color:#f5ee14}.h-cmdportfolio\@bg:hover{background-color:#f5ee14}.lebedata\@text{color:#000}.lebedata\@bg{background-color:#000}.h-lebedata\@text:hover{color:#000}.h-lebedata\@bg:hover{background-color:#000}.pexpansion100\@text{color:#eaf4f4}.pexpansion100\@bg{background-color:#eaf4f4}.h-pexpansion100\@text:hover{color:#eaf4f4}.h-pexpansion100\@bg:hover{background-color:#eaf4f4}a,p a {
+.ntcsf\@text{color:#1f3046}.ntcsf\@bg{background-color:#c03232}.h-ntcsf\@text:hover{color:#c03232}.h-ntcsf\@bg:hover{background-color:#c03232}.whenbtc\@text{color:#095e34}.whenbtc\@bg{background-color:#095e34}.h-whenbtc\@text:hover{color:#095e34}.h-whenbtc\@bg:hover{background-color:#095e34}.divuture\@text{color:#30f}.divuture\@bg{background-color:#30f}.h-divuture\@text:hover{color:#30f}.h-divuture\@bg:hover{background-color:#30f}.cmdportfolio\@text{color:#f5ee14}.cmdportfolio\@bg{background-color:#f5ee14}.h-cmdportfolio\@text:hover{color:#f5ee14}.h-cmdportfolio\@bg:hover{background-color:#f5ee14}.lebedata\@text{color:#000}.lebedata\@bg{background-color:#000}.h-lebedata\@text:hover{color:#000}.h-lebedata\@bg:hover{background-color:#000}.pexpansion100\@text{color:#eaf4f4}.pexpansion100\@bg{background-color:#eaf4f4}.h-pexpansion100\@text:hover{color:#eaf4f4}.h-pexpansion100\@bg:hover{background-color:#eaf4f4}a,p a {
 	font-weight:500
 }
 .p0 {
@@ -612,11 +612,6 @@ footer.footer>.talk {
 .r0 {
 	border-radius:0
 }
-.project:after,
-.r1,
-footer.footer>.talk {
-	border-radius:4px
-}
 .r2 {
 	border-radius:8px
 }
@@ -867,9 +862,14 @@ footer.footer>.talk {
 	margin-right:16px;
 	font-weight:300
 }
+footer{
+	background:#000;
+}
 footer.footer>.talk {
+	padding:80px 20px;
+	max-width:1136px;
+	margin:0 auto;
 	margin-top:112px;
-	padding:80px;
 	display:flex;
 	justify-content:space-between;
 	align-items:flex-end
@@ -903,8 +903,8 @@ footer.footer>.talk h5 span:after {
 @media (max-width: 1023.98px) {
 	footer.footer .talk {
 		margin-left:-32px;
-		padding:48px 32px;
-		width:calc(100% + 64px);
+		padding:64px;
+		width:100%;
 		border-radius:0;
 		-webkit-transform:scale(1)!important;
 		transform:scale(1)!important;
@@ -993,7 +993,7 @@ body p {
 }
 .container {
 	display:flex;
-	max-width:1020px;
+	max-width:1200px;
 	padding-right:32px;
 	padding-left:32px;
 	margin-right:auto;
@@ -1008,7 +1008,6 @@ a {
 }
 #root {
 	padding-top:80px;
-	padding-bottom:80px
 }
 hr {
 	border:none;
@@ -1033,15 +1032,12 @@ hr {
 		font-size: 28px;
 		line-height: 36px
 	}
-	#root {
-		padding-top: 0;
-		padding-bottom: 50px
-	}
 	.row {
 		display: flex;
 		flex-direction: column
 	}
-}
-.red {
-	color:red
+	.project>.info {
+		max-width: 100%;
+		pointer-events: auto;
+	}
 }
