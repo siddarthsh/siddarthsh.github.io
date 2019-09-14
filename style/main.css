@@ -901,8 +901,7 @@ footer.footer>.talk h5 span:after {
 }
 @media (max-width: 1023.98px) {
 	footer.footer .talk {
-		margin-left:-32px;
-		padding:64px;
+		padding:40px 32px;
 		width:100%;
 		border-radius:0;
 		-webkit-transform:scale(1)!important;
