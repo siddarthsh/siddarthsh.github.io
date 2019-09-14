@@ -949,7 +949,8 @@ footer.footer>.talk h5 span:after {
 	height:100vh;
 	min-height:400px;
 	display:flex;
-	align-items:center
+	align-items:center;
+	padding-bottom: 100px;
 }
 .opensource {
 	margin-top:124px
