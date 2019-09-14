@@ -950,7 +950,6 @@ footer.footer>.talk h5 span:after {
 	min-height:400px;
 	display:flex;
 	align-items:center;
-	padding-bottom: 100px;
 }
 .opensource {
 	margin-top:124px
@@ -1038,5 +1037,8 @@ hr {
 	.project>.info {
 		max-width: 100%;
 		pointer-events: auto;
+	}
+	.intro {
+		height:calc(100vh - 64px);
 	}
 }
