@@ -999,12 +999,19 @@ body p {
 }
 a {
 	color:inherit;
-	text-decoration:none;
+	text-decoration:underline;
 	-webkit-transition:color 80ms ease;
 	transition:color 80ms ease
 }
-#root {
+.root {
 	padding-top:80px;
+}
+.secondary {
+	padding-top:40vh;
+	padding-bottom:100px;
+}
+.other-child-container {
+	padding:100px 0 0px;
 }
 hr {
 	border:none;
@@ -1039,5 +1046,80 @@ hr {
 	}
 	.intro {
 		height:calc(100vh - 56px);
+	}
+}
+.really-small {
+	font-size:11px;
+}
+ul {
+	list-style: none; /* Remove default bullets */
+  }
+
+ul li::before{
+	color:#000;
+	content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 1em; /* Also needed for space (tweak if needed) */
+	margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.current::before {
+	content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	background: -webkit-linear-gradient(135deg,#2ffd0f 0%,#15e3fa 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 1em; /* Also needed for space (tweak if needed) */
+	margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+  .experience-list li{
+	  padding:30px 0;
+  }
+  .skills-list {
+    padding-inline-start: 0px;
+  }
+  .skills-list li{
+	  padding:5px 0;
+  }
+  .skills-list li::before{
+	color:none;
+	content: "";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width:0; /* Also needed for space (tweak if needed) */
+	margin-left: 0; /* Also needed for space (tweak if needed) */
+	padding:0;
+	margin:0;
+}
+.resume-linkto ,.resume-linkto a{
+	color:#000;
+	text-align: center;
+	margin: 0 auto;
+	padding:40px 0 0;
+}
+.back-home {
+	position: absolute;
+	top:100px;
+	left:100px;
+	text-decoration: none;
+}
+.menu-link {
+	position: absolute;
+	top:100px;
+	right:100px;
+	text-decoration: none;
+}
+.project a {
+	text-decoration: none;
+}
+@media (max-width: 1023.98px) {
+	.back-home {
+		top:50px;
+		left:20px;
+	}
+	.menu-link {
+		top:50px;
+		right:50px;
 	}
 }
