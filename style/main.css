@@ -1154,16 +1154,16 @@ ul li::before{
 	}
 }
 
-
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     body {
         background-color: #000;
         color: white;
     }
 }
-@media (prefers-color-scheme: dark) {
+
+@media (prefers-color-scheme: light) {
     body {
-        background-color: #000;
-        color: white;
+        background-color: #fff;
+        color: black;
     }
 }
