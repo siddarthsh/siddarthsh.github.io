@@ -1126,7 +1126,7 @@ body p {
 }
 a {
     color: inherit;
-    text-decoration: underline;
+    text-decoration: none;
     -webkit-transition: color 80ms ease;
     transition: color 80ms ease;
 }
