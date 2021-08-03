@@ -409,6 +409,19 @@ footer.footer > .talk {
     background-color: #eaf4f4;
 }
 
+.darker\@text {
+    color: #eaf4f4;
+}
+.darker\@bg {
+    background-color: #4f4d99;
+}
+.h-darker\@text:hover {
+    color: #eaf4f4;
+}
+.h-darker\@bg:hover {
+    background-color: #4f4d99;
+}
+
 .bold {
     font-weight: 600;
     border-radius: 10px;
